@@ -1,0 +1,9 @@
+component: website
+name: test
+stage: dev
+
+inputs:
+  src:
+    src: ./
+    hook: yarn generate
+    dist: ./dist
